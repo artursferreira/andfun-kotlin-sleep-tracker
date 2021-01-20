@@ -78,7 +78,6 @@ class SleepTrackerFragment : Fragment() {
             }
         })
 
-
         // Add an Observer on the state variable for Navigating when STOP button is pressed.
         sleepTrackerViewModel.navigateToSleepQuality.observe(viewLifecycleOwner, Observer { night ->
             night?.let {

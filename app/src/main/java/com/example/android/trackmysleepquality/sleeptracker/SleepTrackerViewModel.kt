@@ -35,7 +35,6 @@ class SleepTrackerViewModel(
     application: Application
 ) : AndroidViewModel(application) {
 
-
     private var tonight = MutableLiveData<SleepNight?>()
 
     private val nights = database.getAllNights()
